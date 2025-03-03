@@ -109,7 +109,7 @@ function App() {
         <div className="w-full max-w-[1470px] px-6 sm:px-12 md:px-16 lg:px-20 xl:px-0 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center justify-center">
             {/* Text Content */}
-            <div className="space-y-6 text-center lg:text-left">
+            <div className="space-y-6 text-center lg:text-left mt-5 lg:mt-0">
               <h1 className="font-bold text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[72px] leading-[1.2]">
                 <span className="block">FIND CLOTHES</span>
                 <span className="block">THAT MATCHES</span>
@@ -163,7 +163,7 @@ function App() {
 
               {/* Decorative Elements */}
               <svg
-                className="absolute top-[40px] right-[10px] sm:right-[30px] w-[32px] sm:w-[48px]"
+                className="absolute top-[100px] right-[10px] sm:right-[30px] w-[32px] sm:w-[48px]"
                 viewBox="0 0 104 104"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -945,7 +945,7 @@ function App() {
 
       <section className="w-full max-w-screen-xl min-h-[866px] xl:h-[866px] rounded-3xl bg-[#F0F0F0] mx-auto flex flex-col justify-center items-center py-10">
         {/* Heading */}
-        <h2 className="text-center text-2xl sm:text-3xl font-bold mb-8">
+        <h2 className="text-center text-2xl sm:text-[48px] font-bold mb-8 leading-[57px]">
           BROWSE BY DRESS STYLE
         </h2>
 
@@ -969,7 +969,7 @@ function App() {
               alt="Formal"
               className="w-full h-full ml-[100px]  xl:ml-[270px]   object-cover"
             />
-            <p className="absolute top-4 left-4 text-black text-lg font-semibold">
+            <p className="absolute top-4 left-4 text-black text-lg font-[700] text-[36px] leading-[48px]">
               Formal
             </p>
           </div>
@@ -980,8 +980,8 @@ function App() {
               alt="Formal"
               className="w-[50%]   ml-[100px] xl:ml-[270px] h-full object-cover"
             />
-            <p className="absolute top-4 left-4 text-black text-lg font-semibold">
-              Formal
+               <p className="absolute top-4 left-4 text-black text-lg font-[700] text-[36px] leading-[48px]">
+              Party
             </p>
           </div>
           {/* Another Casual */}
@@ -991,8 +991,8 @@ function App() {
               alt="Casual"
               className="w-full h-full object-cover"
             />
-            <p className="absolute top-4 left-4 text-black text-lg font-semibold">
-              Casual
+             <p className="absolute top-4 left-4 text-black text-lg font-[700] text-[36px] leading-[48px]">
+              Gym
             </p>
           </div>
         </div>
@@ -1000,8 +1000,8 @@ function App() {
 
       <section className="py-16 px-4 sm:px-6 lg:px-8 ">
         <div className="max-w-7xl mx-auto">
-          <div className="flex justify-between">
-            <h2 className=" md:text-4xl font-bold  mb-12  text-[48px] leading-[57px] ">
+          <div className="flex justify-between my-5">
+            <h2 className=" md:text-4xl font-bold    text-[48px] leading-[57px] ">
               OUR HAPPY CUSTOMERS
             </h2>
             <div className=" flex gap-x-1.5 items-center">
